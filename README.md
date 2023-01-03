@@ -7,13 +7,17 @@
 - Styling is done by CSS Modules.
 
 The application consists of a form and a list of contacts.
+
 Implementing adding of contact name and displaing a list of contacts.
+
 The application doesn't save contacts between different sessions (page refresh). 
 
 Each contact is an object with `name` and `id` properties.
+
 `Nanoid` is used to generate identifiers.
 
 User can add or delete contacts from contact book.
+
 For the contact searching search field was realized, filtration logics is case insensitive.
 
 The user cannot add contacts whose names are already in the phone book.
